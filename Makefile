@@ -1,6 +1,7 @@
 install:
 	pip install poetry && \
-	poetry install
+	poetry install 
 
 start:
-	poetry run python example_bot/main.py
+        Import openai
+	poetry run python Got/main.py
