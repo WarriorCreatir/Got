@@ -1,7 +1,8 @@
 install:
 	pip install poetry && \
 	poetry install 
+install:
+pip install openai 
 
 start:
-        Import openai
 	poetry run python Got/main.py
